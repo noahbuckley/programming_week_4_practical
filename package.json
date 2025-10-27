@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.8"
-  }
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  },
+"scripts": {
+  "build-css": "sass scss/custom.scss dist/style.css --style=compressed",
+  "watch-css": "sass --watch scss/custom.scss dist/style.css"
+}
 }
