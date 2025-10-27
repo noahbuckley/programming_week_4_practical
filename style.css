@@ -1,0 +1,25 @@
+
+:root {
+  --bs-primary: #68246D;   
+  --bs-secondary: #ffd53a; 
+  --bs-success: #33cc99;   
+  --bs-danger: #ff4d4f;    
+  --bs-body-bg: #ffffff;   
+  --bs-body-color: #21262b;
+}
+
+/* Optionally, adjust specific components */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.btn-primary:hover {
+  background-color: #ffd53a;
+  border-color: #ffd53a;
+}
+
+/* Body background and text */
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
