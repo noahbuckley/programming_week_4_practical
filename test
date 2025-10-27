@@ -4,8 +4,10 @@
 <body>
 <h1> Applications Of Computer Science </h1>
 <ul>
-<li> Sat-Navs </li>
-<li> The Internet </li>
+<li> Path-finding </li>
+<li> Data Storage </li>
 <li> Fast, long-distance communication </li>
 </ul>
+
+
 </body>
